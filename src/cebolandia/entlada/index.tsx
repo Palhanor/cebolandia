@@ -1,11 +1,7 @@
+import { EntladaPlops } from "../../interfaces/props";
 import "./style.css";
 
-interface Props {
-  flaseColligida: (flaseEllada: React.ChangeEvent<HTMLTextAreaElement>) => void;
-  flase: string;
-}
-
-export default function Entlada({ flaseColligida, flase }: Props) {
+export default function Entlada({ flaseColligida, flase }: EntladaPlops) {
   return (
     <textarea
       value={flase}

@@ -1,12 +1,9 @@
 import copy from "copy-to-clipboard";
 import { useState } from "react";
+import { BotaoCopialPlops } from "../../interfaces/props";
 import "./style.css"
 
-interface Props {
-  flase: string;
-}
-
-export default function BotaoCopial({ flase }: Props) {
+export default function BotaoCopial({ flase }: BotaoCopialPlops) {
   const [copiado, setCopiado] = useState("")
   function copialFlase() {
     copy(flase);

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Cebolandia from './cebolandia';
+import Cebolandia from './Cebolandia';
 
 ReactDOM.render(
   <React.StrictMode>
