@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cebolandia/static/css/main.8f59a876.css",
+    "main.js": "/cebolandia/static/js/main.ca70b302.js",
+    "static/media/cebolinha.png": "/cebolandia/static/media/cebolinha.573b8555d59aa5169d96.png",
+    "index.html": "/cebolandia/index.html",
+    "main.8f59a876.css.map": "/cebolandia/static/css/main.8f59a876.css.map",
+    "main.ca70b302.js.map": "/cebolandia/static/js/main.ca70b302.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f59a876.css",
+    "static/js/main.ca70b302.js"
+  ]
+}
